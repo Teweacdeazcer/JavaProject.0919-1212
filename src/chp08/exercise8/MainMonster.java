@@ -1,4 +1,4 @@
-package ch08.exercise8;
+package chp08.exercise8;
 
 public class MainMonster {
     public static void main(String[] args) {

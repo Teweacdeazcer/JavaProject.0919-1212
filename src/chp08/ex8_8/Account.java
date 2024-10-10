@@ -1,4 +1,4 @@
-package ch08.ex8_8;
+package chp08.ex8_8;
 
 public class Account {
     private String accNumber;

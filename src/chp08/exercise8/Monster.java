@@ -1,4 +1,4 @@
-package ch08.exercise8;
+package chp08.exercise8;
 
 public class Monster {
     private String name;

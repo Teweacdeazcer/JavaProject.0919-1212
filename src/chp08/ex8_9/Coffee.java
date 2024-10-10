@@ -1,4 +1,4 @@
-package ch08.ex8_9;
+package chp08.ex8_9;
 
 public class Coffee {
     private String name;

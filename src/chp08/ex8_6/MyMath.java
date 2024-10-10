@@ -1,4 +1,4 @@
-package ch08.ex8_6;
+package chp08.ex8_6;
 
 public class MyMath {
     static int max(int n1, int n2) {

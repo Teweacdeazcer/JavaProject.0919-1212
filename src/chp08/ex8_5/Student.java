@@ -1,4 +1,4 @@
-package ch08.ex8_5;
+package chp08.ex8_5;
 
 public class Student {
     // static field

@@ -1,4 +1,4 @@
-package ch08.exercise7;
+package chp08.exercise7;
 
 public class Account {
     private int balance;

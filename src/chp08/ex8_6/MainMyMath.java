@@ -1,4 +1,4 @@
-package ch08.ex8_6;
+package chp08.ex8_6;
 
 import java.util.Scanner;
 
