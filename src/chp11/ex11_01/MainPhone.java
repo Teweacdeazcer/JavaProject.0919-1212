@@ -13,5 +13,10 @@ public class MainPhone {
         iphone.playMusic("APT.");
         iphone.sendAirdrop("사진");
         iphone.sendMessage("오늘 수능 대박나라~");
+
+        // 이미 생성된 객체의 참조값을 이용해서 업캐스팅이 가능
+        Alram alram = iphone;
+        alram.beep();
+        alram.playMusic("Power");
     }
 }
