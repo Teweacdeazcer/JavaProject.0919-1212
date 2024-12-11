@@ -1,5 +1,5 @@
-package _gui.controller;
 
+package _gui.controller;
 import _gui.view.OrderInfoView;
 
 import javax.swing.*;
@@ -8,7 +8,7 @@ import java.awt.*;
 public class MainFrame extends JFrame {
     public static int FRAME_X = 500;
     public static int FRAME_Y = 400;
-    public static final int FRAME_WIDTH = 600;
+    public static final int FRAME_WIDTH = 700;
     public static final int FRAME_HEIGHT = 500;
 
     public MainFrame() {
@@ -21,12 +21,12 @@ public class MainFrame extends JFrame {
         FRAME_X = (int)((0.5)*(sw - FRAME_WIDTH));
         FRAME_Y = (int)((0.5)*(sh - FRAME_HEIGHT));
 
+        OrderInfoView orderInfoView = new OrderInfoView();
+        add(orderInfoView,"Center");
+
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocation(FRAME_X,FRAME_Y);
         setSize(FRAME_WIDTH, FRAME_HEIGHT);
-
-        OrderInfoView orderInfoView = new OrderInfoView();
-        add(orderInfoView);
-
         setVisible(true);
     }
 
